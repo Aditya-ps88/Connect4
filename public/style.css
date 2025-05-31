@@ -1,0 +1,129 @@
+body{
+
+    background-image: url('./5073414.jpg')
+
+}
+h1{
+    color: #D4ADFC;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#winner{
+
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-bottom: 2rem;
+      color: #e40917;
+}
+
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: #1D267D;
+    border: 10px solid #0C134F;
+    border-radius: 10%;
+    box-shadow: 0 8px 20px rgba(72, 123, 232, 0.4);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+.tile:hover{
+    
+  box-shadow: 0 0 25px #da00f7;
+  transform: scale(1.05); 
+}
+
+.red-piece { background-color: red; }
+
+#controls {
+            margin-bottom: 10px;
+        }
+
+
+.red-piece :hover
+{
+    background-color: #fcfcfe; 
+  box-shadow: 0 0 25px #da00f7;
+  transform: scale(1.05); 
+}
+
+.yellow-piece { background-color: yellow; }
+
+.yellow-piece :hover
+{
+    background-color: #fcfcfe; 
+  box-shadow: 0 0 25px #da00f7;
+  transform: scale(1.05); 
+}
+
+
+#reset{
+    background-color: hsl(297, 97%, 51%);
+  font-size: 1.1em;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+#reset:hover
+{
+    background-color: #fcfcfe; 
+  box-shadow: 0 0 25px #da00f7;
+  transform: scale(1.05); 
+}
+#redColort{
+        color: #3A59D1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 20px;
+    right: 100px;
+
+}
+#redColor{
+      
+
+    position: relative;
+    top: -25px;
+    left: 20px;
+
+}
+#redColor:hover{
+
+     box-shadow: 0 0 25px #f70000;
+  transform: scale(1.05); 
+}
+#yellowColort{
+        color: #3A59D1;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 20px;
+    right: 100px;
+
+}
+#yellowColor{
+      
+
+    position: relative;
+    top: -25px;
+    left: 20px;
+
+}
+#yellowColor:hover{
+
+     box-shadow: 0 0 25px #edf25f;
+  transform: scale(1.05); 
+}
