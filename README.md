@@ -12,20 +12,22 @@ A fun and interactive **Connect Four** game built using **HTML**, **CSS**, and *
 - 🎯 Real-time UI updates
 
 ## 🖥️ Demo
-🛠️ Technologies Used
+https://aditya-ps88.github.io/Connect4/
+
+## 🛠️ Technologies Used
 HTML5
 CSS3
 Vanilla JavaScript
 
-🧠 How It Works
+## 🧠 How It Works
 The game board is a 6x7 grid.
 Players take turns dropping pieces.
 The game checks for 4 consecutive pieces in all directions.
 When a winner is detected, the game displays the winner and ends.
 Users can reset the game with a button click.
 
-✨ Future Enhancements
-🎵 Add sound effects
+## ✨ Future Enhancements
+**🎵 Add sound effects
 
 🧑‍🤝‍🧑 Multiplayer over network
 
@@ -33,5 +35,5 @@ Users can reset the game with a button click.
 
 🎨 Drag-and-drop style piece movement
 
-
+**
 
